@@ -10,9 +10,13 @@ import Foundation
 struct Food {
     let name: String
     let image: String
+    let price: Double
+    let favorite: Bool
     
-    init(name: String, image: String){
+    init(name: String, image: String, price: Double, favorite: Bool){
         self.name = name
         self.image = image
+        self.price = price
+        self.favorite = favorite
     }
 }

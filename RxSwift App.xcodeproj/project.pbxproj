@@ -69,6 +69,7 @@
 		9974643026DCF7EC00375C12 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
 		9974643326DCFC3B00375C12 /* FoodDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailViewController.swift; sourceTree = "<group>"; };
 		9988583726DE94B7006846B1 /* RxSwiftPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSwiftPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		999B9DD526DFCE17006E9304 /* RxSwiftPractice.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSwiftPractice.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		99CACEF826DECBC40036AB3B /* SectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionModel.swift; sourceTree = "<group>"; };
 		99CACEFA26DF9FAE0036AB3B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D2E10BEEEE25C0B087386A61 /* Pods_RxSwift_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,6 +151,7 @@
 		997463FB26DCEC6100375C12 /* RxSwift App */ = {
 			isa = PBXGroup;
 			children = (
+				999B9DD526DFCE17006E9304 /* RxSwiftPractice.playground */,
 				9988583726DE94B7006846B1 /* RxSwiftPlayground.playground */,
 				9974642C26DCF78600375C12 /* Model */,
 				9974642F26DCF7D600375C12 /* Views */,
@@ -202,9 +204,9 @@
 		9974643226DCFC2100375C12 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				99CACEFA26DF9FAE0036AB3B /* LoginViewController.swift */,
 				9974640026DCEC6100375C12 /* ViewController.swift */,
 				9974643326DCFC3B00375C12 /* FoodDetailViewController.swift */,
-				99CACEFA26DF9FAE0036AB3B /* LoginViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -618,6 +620,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";

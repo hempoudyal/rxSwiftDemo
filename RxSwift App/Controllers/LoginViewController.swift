@@ -30,6 +30,7 @@ class LoginViewController: ViewController {
     }
     
     func login(user: String, pass: String){
+        
         let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
         let emailText = NSPredicate(format: "SELF MATCHES[c] %@", emailRegEx)
         let emailValid: Bool = emailText.evaluate(with: user)

@@ -11,5 +11,7 @@ import UIKit
 class FoodTableViewCell: UITableViewCell{
     @IBOutlet weak var foodLabel: UILabel!
     @IBOutlet weak var foodImageView: UIImageView!
+    @IBOutlet weak var price: UILabel!
+    @IBOutlet weak var favoriteButton: UIButton!
     
 }
